@@ -35,6 +35,7 @@
         this.routes();
       },
 
+//    Routes might be a new object with (a) method(s) in it.
       routes() {
         routie({
             'books': function() {
@@ -77,6 +78,7 @@
         });
       },
 
+//       I would wrap these functions beneath in a new object.
       getBooks() {
         books = data.items.map(function(book) {
           return book;
