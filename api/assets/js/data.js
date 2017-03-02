@@ -77,6 +77,7 @@
         });
       },
 
+//       I would wrap these functions beneath in an object.
       getBooks() {
         books = data.items.map(function(book) {
           return book;
